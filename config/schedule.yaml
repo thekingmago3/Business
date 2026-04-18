@@ -1,0 +1,32 @@
+# Daily posting schedule. Times are local to TIMEZONE in .env.
+
+timezone: "America/Los_Angeles"
+
+tiktok:
+  count: 3
+  slots:
+    - { time: "09:00", theme: "hook + hot-take", length_sec: 30 }
+    - { time: "14:00", theme: "tutorial / how-to", length_sec: 45 }
+    - { time: "19:00", theme: "story / behind-the-scenes", length_sec: 60 }
+
+instagram:
+  count: 3
+  slots:
+    - { time: "10:00", theme: "carousel-style quick win", length_sec: 30 }
+    - { time: "15:00", theme: "relatable founder moment", length_sec: 30 }
+    - { time: "20:00", theme: "aspirational day-in-the-life", length_sec: 45 }
+
+youtube:
+  count: 2
+  slots:
+    # Short-form morning drop
+    - { time: "08:00", format: "short", theme: "tool teardown in 60s", length_sec: 60 }
+    # Long-form afternoon drop
+    - { time: "16:00", format: "long", theme: "deep-dive playbook", length_sec: 480 }
+
+# How many candidate hooks to generate per piece; the agent picks the strongest.
+hook_variants_per_piece: 5
+
+# Use today's trends when scoring hooks/themes. Falls back to evergreen
+# frameworks if the trend fetch fails or returns nothing relevant.
+use_live_trends: true
