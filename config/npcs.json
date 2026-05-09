@@ -1,0 +1,47 @@
+[
+  {
+    "id": "guard_01",
+    "name": "Guard_01",
+    "type": "guard",
+    "position": [0, 5, 0],
+    "friendliness": 45,
+    "aggression": 75,
+    "curiosity": 40
+  },
+  {
+    "id": "guard_02",
+    "name": "Guard_02",
+    "type": "guard",
+    "position": [20, 5, 0],
+    "friendliness": 40,
+    "aggression": 80,
+    "curiosity": 35
+  },
+  {
+    "id": "merchant_01",
+    "name": "Merchant_01",
+    "type": "merchant",
+    "position": [-20, 5, 0],
+    "friendliness": 85,
+    "aggression": 20,
+    "curiosity": 70
+  },
+  {
+    "id": "civilian_01",
+    "name": "Civilian_01",
+    "type": "civilian",
+    "position": [0, 5, 20],
+    "friendliness": 70,
+    "aggression": 30,
+    "curiosity": 75
+  },
+  {
+    "id": "civilian_02",
+    "name": "Civilian_02",
+    "type": "civilian",
+    "position": [0, 5, -20],
+    "friendliness": 75,
+    "aggression": 25,
+    "curiosity": 70
+  }
+]
